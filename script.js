@@ -1,3 +1,10 @@
+/**
+ * ITEManimate object is used to animate ease with bezier functions
+ * example: TweenMax.to($('selector'), 1.5, {left:"80%", ease: ITEManimate.bezier(0.04,0.86,0.8,1)});
+ *
+ * Used: https://github.com/rdallasgray/bez
+   Forked from: https://codepen.io/karlovidek/pen/qOxYjp
+ */
 var ITEManimate = ({
     start: 0,
     bezier: function(p0, p1, p2, p3) {
