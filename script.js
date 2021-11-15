@@ -158,15 +158,31 @@ const toGithub = () => {
     location.href = "https://github.com/cocatrip"
 }
 
-const toAntiSP = () => {
+const toProject1 = () => {
     location.href = "https://github.com/cocatrip/anti-sp"
 }
 
 const toProject2 = () => {
-    location.href = "https://github.com/cocatrip"
+    location.href = "https://github.com/cocatrip/shopee-upload-generator"
 }
 
 const toProject3 = () => {
-    location.href = "https://github.com/cocatrip"
+    location.href = "https://github.com/cocatrip/oriflame_api"
 }
 
+const toDotfiles = () => {
+    location.href = "https://github.com/cocatrip/dotfiles"
+}
+
+document.onkeydown = function (event) {
+  switch (event.keyCode) {
+     case 37:
+        slide("decrease")
+        console.log("Left key is pressed.");
+        break;
+     case 39:
+        slide("increase");
+        console.log("Right key is pressed.");
+        break;
+  }
+};
