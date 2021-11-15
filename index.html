@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -16,29 +26,32 @@
                 <div class="box1 box">
                     <div class="bg"></div>
                     <div class="details">
-                        <h1>I'm the first Box</h1>
+                        <h1>Adrianus Vian Habirowo</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing 
-                            elit. Integer lacinia dui lectus. Donec scelerisque ipsum
-                            diam, ac mattis orci pellentesque eget. 
+                            I am a student at Binus University, majoring in Cyber Security.<br>
+                            Love using linux and been using it since 2019.
                         </p>
-                        <button>Check Now</button>
+                        <button onclick="toGithub()"><img src="octocat.png"></button>
                     </div>
 
-                    <div class="illustration"><div class="inner"></div></div>
+                    <div class="illustration">
+                        <img src="me.jpg" style="max-width:200px; height:auto;">
+                    </div>
+                    <!-- <div class="illustration"><div class="inner"></div></div> -->
                 </div>
                                 
                 
                 <div class="box2 box">
                     <div class="bg"></div>
                     <div class="details">
-                        <h1>I'm the second Box</h1>
+                        <h1>Anti-SP</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing 
-                            elit. Integer lacinia dui lectus. Donec scelerisque ipsum
-                            diam, ac mattis orci pellentesque eget. 
+                            Anti-SP is a program that helps binusian to minimize 
+                            the risk of getting SP because of class absence. This
+                            program is currently under development and only works
+                            on Linux.
                         </p>
-                        <button>Check Now</button>
+                        <button onclick="toAntiSP()"><img src="octocat.png"></button>
                     </div>
 
                     <div class="illustration"><div class="inner"></div></div>
@@ -108,4 +121,9 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.2/CSSRulePlugin.min.js"></script> -->
         <script src="script.js"></script>
     </body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
 </html>

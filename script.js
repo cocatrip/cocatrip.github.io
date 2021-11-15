@@ -8,7 +8,7 @@ let value = 0
 // trail index number
 let trailValue = 0
 // interval (Duration)
-let interval = 4000
+let interval = 60000
 
 // Function to slide forward
 const slide = (condition) => {
@@ -151,6 +151,22 @@ const touchSlide = (() => {
         // reset all variable to 0
         [start, move, change, sliderWidth] = [0,0,0,0]
     }
-    // call mobile on touch end
     slider.addEventListener("touchend", mobile)
 })()
+
+const toGithub = () => {
+    location.href = "https://github.com/cocatrip"
+}
+
+const toAntiSP = () => {
+    location.href = "https://github.com/cocatrip/anti-sp"
+}
+
+const toProject2 = () => {
+    location.href = "https://github.com/cocatrip"
+}
+
+const toProject3 = () => {
+    location.href = "https://github.com/cocatrip"
+}
+
