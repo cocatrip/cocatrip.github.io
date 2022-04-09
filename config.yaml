@@ -1,0 +1,38 @@
+baseURL: 'https://cocatrip.github.io/'
+languageCode: 'en-us'
+title: 'Portfolio'
+theme: 'PaperMod'
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  author: cocatrip
+  defaultTheme: dark
+
+  profileMode:
+    enabled: true
+    title: Adrianus Vian
+    subtitle: |
+      I am a student at Bina Nusantara University, majoring in Cyber Security.
+      Love using linux and been using it since \'19.
+    imageUrl: "https://cocatrip.github.io/static/me.jpg"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: me
+    buttons:
+      - name: dotfiles
+        url: https://github.com/cocatrip/dotfiles
+
+  socialIcons: # optional
+  - name: "github"
+    url: "https://github.com/cocatrip"
+  - name: "linkedin"
+    url: "https://www.linkedin.com/in/cocatrip/"
+  - name: "facebook"
+    url: "https://www.facebook.com/adrianus.vian"
+  - name: "twitter"
+    url: "https://twitter.com/cocatrip"
+  - name: "reddit"
+    url: "https://reddit.com/user/cocatrip"
