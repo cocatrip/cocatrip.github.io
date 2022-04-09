@@ -17,7 +17,7 @@ params:
     subtitle: |
       I am a student at Bina Nusantara University, majoring in Cyber Security.
       Love using linux and been using it since \'19.
-    imageUrl: "https://cocatrip.github.io/static/me.jpg"
+    imageUrl: "https://cocatrip.github.io/img/me.jpg"
     imageWidth: 120
     imageHeight: 120
     imageTitle: me
