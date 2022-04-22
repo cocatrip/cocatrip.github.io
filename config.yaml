@@ -8,8 +8,10 @@ minify:
   minifyOutput: true
 
 params:
+  env: production
   author: cocatrip
   defaultTheme: dark
+  hideFooter: true
 
   profileMode:
     enabled: true
@@ -36,3 +38,10 @@ params:
   #   url: "https://twitter.com/cocatrip"
   # - name: "reddit"
   #   url: "https://reddit.com/user/cocatrip"
+
+menu:
+  main:
+    - identifier: blog
+      name: Blog
+      url: /blog/
+      weight: 20
